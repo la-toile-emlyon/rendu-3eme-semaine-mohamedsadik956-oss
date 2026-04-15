@@ -1,7 +1,7 @@
 * {
     margin: 0;
     text-decoration: none;
-    font-family:poppins;
+    font-family: poppins;
 }
 
 .logoNav {
@@ -19,7 +19,8 @@
     gap: 20px;
     padding: 20px;
 }
-nav a{
+
+nav a {
     color: #3B63FB;
     text-decoration: none;
 }
@@ -42,7 +43,8 @@ header {
     letter-spacing: 1px;
     font-weight: bold;
 }
-.infoMore{
+
+.infoMore {
     background-color: #fff;
     color: #3B63FB;
     display: inline-block;
@@ -54,7 +56,8 @@ header {
     font-weight: bold;
     border: solid #3B63FB;
 }
-.connectButton{
+
+.connectButton {
     background-color: #fff;
     color: #3B63FB;
     display: inline-block;
@@ -66,19 +69,40 @@ header {
     font-weight: bold;
     border: solid #3B63FB;
     margin-left: 600px;
-    
+
 }
-.spanTritre1{
+
+.spanTritre1 {
     display: flex;
     flex-direction: column;
 }
-.titre1{
-    
-}
-.léo{
+
+.titre1 {}
+
+.léo {
     font-size: 70px;
-    color:#3B63FB;
+    color: #3B63FB;
+    padding: 5px 13px;
 }
-.imgIntro{
-  width: 500px;
+
+.imgIntro {
+    width: 500px;
+    padding: 34px;
+    margin-right: 35px;
+}
+
+.page1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    margin-bottom: -279px;
+
+
+}
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+.P1{
+    margin-bottom: 20px;
 }
