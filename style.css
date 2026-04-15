@@ -5,19 +5,27 @@
 }
 
 .logoNav {
-    width: 90px;
-    margin-left: -20px;
-    margin-top: -15px;
+    width: 90px
+
 }
 
 
 .navStyle {
+    align-items: center;
+     background-color: white;
+    box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.137);
 
+}
+.navStyle1{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
     gap: 20px;
     padding: 20px;
+}
+.Section1{
+    min-width: 150vh;
 }
 
 nav a {
@@ -48,13 +56,13 @@ header {
     background-color: #fff;
     color: #3B63FB;
     display: inline-block;
-    padding: 5px 24px;
+    padding: 5px 25px;
     text-decoration: none;
     border-radius: 21px;
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
-    border: solid #3B63FB;
+    border: solid 1px #3B63FB;
 }
 
 .connectButton {
@@ -68,7 +76,9 @@ header {
     letter-spacing: 1px;
     font-weight: bold;
     border: solid #3B63FB;
-    margin-left: 600px;
+    margin: 38px;
+    
+  
 
 }
 
@@ -77,17 +87,16 @@ header {
     flex-direction: column;
 }
 
-.titre1 {}
-
 .léo {
     font-size: 70px;
     color: #3B63FB;
-    padding: 5px 13px;
+    padding: 0px 5px;
 }
+
 
 .imgIntro {
     width: 500px;
-    padding: 34px;
+    padding: 20px;
     margin-right: 35px;
 }
 
@@ -102,7 +111,19 @@ header {
 .container{
     max-width: 1080px;
     margin: auto;
+    min-height: 150vh;
 }
 .P1{
     margin-bottom: 20px;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+.button1{
+    padding: 0px 5px;
+    display: flex;
+    gap: 8pX;
+    margin-top: 45px;
+}
+.section1{
+    min-height: 1000px;
 }
