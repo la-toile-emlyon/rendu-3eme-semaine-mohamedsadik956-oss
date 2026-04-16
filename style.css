@@ -193,24 +193,53 @@ header {
     margin-top: 135px;
     font-weight: 600;
 }
-.cardService img{
-    width: 20%;
+.serviceProposes img{
+    margin-left: 20px;
+    width: 83%;
+    border-radius: 23px;
+    margin-bottom: 13px;
 }
 .cardService h4{
-    font-weight: 400
+    font-weight: 400;
+    text-align: center;
+    margin-top: -6px;
+    margin-bottom: 21px;
+    color: white;
+    
 }
 .cardService p{
     font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 40px;
+    color: white;
 }
 .cardService a{
-    background-color: #3B63FB;
-    color:white;
+    background-color: #ffffff;  
+    color:#3B63FB;
     border-radius: 40px;
     padding: 6px 24px;
+    margin-left: 45px;
 }
 .cardService{
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
+    width: 241px;
+    box-shadow: 0 4px 9.9px 2px #3B63FB;
+    border-radius: 10px;
+    padding: 15px 16px;
+    height: 410px;
+    background-color: #3B63FB;
+
 }
+.serviceProposes{
+    min-height: 150vh;
+}
+.rowCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 45px;
+}
+
 
 
