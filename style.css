@@ -3,6 +3,11 @@
     text-decoration: none;
     font-family: poppins;
 }
+.container1{
+    min-height: 100vh;
+    margin: auto;
+    max-height: 1080px;
+}
 
 .logoNav {
     width: 90px
@@ -105,13 +110,14 @@ header {
     justify-content: end;
     flex-direction: row;
     margin-bottom: -279px;
+    margin-top: 100px;
 
 
 }
 .container{
     max-width: 1080px;
     margin: auto;
-    min-height: 150vh;
+    min-height: 90vh;
 }
 .P1{
     margin-bottom: 20px;
@@ -124,6 +130,87 @@ header {
     gap: 8pX;
     margin-top: 45px;
 }
-.section1{
-    min-height: 1000px;
+
+.titrePromesse{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #3B63FB;
+    padding: 20px 412px;
+    margin-bottom: 120px;
+    margin-top: 25px;
+    font-weight: 600;
 }
+.listPromesse{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+
+}
+.promesse{
+    min-height: 100vh;
+    margin: auto;
+    max-height: 1080px;
+}
+
+.imgPromesse{
+    width: 50%;
+    margin-left: 40px;
+    margin-right: -180px;
+    
+}
+.listePromesse{
+    padding: 100px 10px;
+    font-size: 18px;
+    line-height: 2.5;
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+ .listePromesse li{
+    margin-bottom: 15px;
+    padding: 0px 35px;
+}
+.appelAction{
+    background-color: #3B63FB;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+}
+.buttonAppelAction{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;
+    margin-left: 405px;
+}
+.serviceProposes h1{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #3B63FB;
+    padding: 20px 480px;
+    margin-bottom: 120px;
+    margin-top: 135px;
+    font-weight: 600;
+}
+.cardService img{
+    width: 20%;
+}
+.cardService h4{
+    font-weight: 400
+}
+.cardService p{
+    font-weight: 300;
+}
+.cardService a{
+    background-color: #3B63FB;
+    color:white;
+    border-radius: 40px;
+    padding: 6px 24px;
+}
+.cardService{
+    display: flex;
+    flex-direction: column;
+}
+
+
