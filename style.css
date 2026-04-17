@@ -3,7 +3,8 @@
     text-decoration: none;
     font-family: poppins;
 }
-.container1{
+
+.container1 {
     min-height: 100vh;
     margin: auto;
     max-height: 1080px;
@@ -11,17 +12,17 @@
 
 .logoNav {
     width: 90px
-
 }
 
 
 .navStyle {
     align-items: center;
-     background-color: white;
+    background-color: white;
     box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.137);
 
 }
-.navStyle1{
+
+.navStyle1 {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -29,7 +30,8 @@
     gap: 20px;
     padding: 20px;
 }
-.Section1{
+
+.Section1 {
     min-width: 150vh;
 }
 
@@ -82,8 +84,8 @@ header {
     font-weight: bold;
     border: solid #3B63FB;
     margin: 38px;
-    
-  
+
+
 
 }
 
@@ -114,24 +116,27 @@ header {
 
 
 }
-.container{
+
+.container {
     max-width: 1080px;
     margin: auto;
     min-height: 90vh;
 }
-.P1{
+
+.P1 {
     margin-bottom: 20px;
     padding: 0px 5px;
     font-size: 20px;
 }
-.button1{
+
+.button1 {
     padding: 0px 5px;
     display: flex;
     gap: 8pX;
     margin-top: 45px;
 }
 
-.titrePromesse{
+.titrePromesse {
     text-align: center;
     font-size: 24px;
     letter-spacing: 2px;
@@ -141,25 +146,28 @@ header {
     margin-top: 25px;
     font-weight: 600;
 }
-.listPromesse{
+
+.listPromesse {
     display: flex;
     justify-content: right;
     flex-direction: row;
 
 }
-.promesse{
+
+.promesse {
     min-height: 100vh;
     margin: auto;
     max-height: 1080px;
 }
 
-.imgPromesse{
+.imgPromesse {
     width: 50%;
     margin-left: 40px;
     margin-right: -180px;
-    
+
 }
-.listePromesse{
+
+.listePromesse {
     padding: 100px 10px;
     font-size: 18px;
     line-height: 2.5;
@@ -167,23 +175,27 @@ header {
     max-width: 600px;
     margin: 0 auto;
 }
- .listePromesse li{
+
+.listePromesse li {
     margin-bottom: 15px;
     padding: 0px 35px;
 }
-.appelAction{
+
+.appelAction {
     background-color: #3B63FB;
     padding: 10px 20px;
     color: white;
     border-radius: 30px;
 }
-.buttonAppelAction{
+
+.buttonAppelAction {
     display: flex;
     justify-content: space-around;
     margin-top: -50px;
     margin-left: 405px;
 }
-.serviceProposes h1{
+
+.serviceProposes h1 {
     text-align: center;
     font-size: 24px;
     letter-spacing: 2px;
@@ -193,35 +205,40 @@ header {
     margin-top: 135px;
     font-weight: 600;
 }
-.serviceProposes img{
+
+.serviceProposes img {
     margin-left: 20px;
     width: 83%;
     border-radius: 23px;
     margin-bottom: 13px;
 }
-.cardService h4{
+
+.cardService h4 {
     font-weight: 400;
     text-align: center;
     margin-top: -6px;
     margin-bottom: 21px;
     color: white;
-    
+
 }
-.cardService p{
+
+.cardService p {
     font-weight: 300;
     text-align: center;
     font-size: 12px;
     margin-bottom: 40px;
     color: white;
 }
-.cardService a{
-    background-color: #ffffff;  
-    color:#3B63FB;
+
+.cardService a {
+    background-color: #ffffff;
+    color: #3B63FB;
     border-radius: 40px;
     padding: 6px 24px;
     margin-left: 45px;
 }
-.cardService{
+
+.cardService {
     margin-left: 10px;
     width: 241px;
     box-shadow: 0 4px 9.9px 2px #3B63FB;
@@ -231,15 +248,213 @@ header {
     background-color: #3B63FB;
 
 }
-.serviceProposes{
+
+.serviceProposes {
     min-height: 150vh;
 }
-.rowCard{
+
+.rowCard {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 45px;
 }
 
+.project h1 {
+    color: #3B63FB;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 120px;
 
+}
 
+.Nimbus {
+    display: flex;
+    flex-direction: row;
+}
+
+.Nimbus img {
+    height: 545px;
+    padding: 41px 36px;
+    margin-bottom: 220px;
+}
+
+.NimbusHP {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.Nimbus h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Nimbus p {
+    margin-left: 0px;
+    margin-right: 385px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.FestivalDuFutur {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.FestivalDuFutur img {
+    height: 545px;
+    padding: 41px 36px;
+    margin-bottom: 220px;
+    border-radius: 138px;
+
+}
+
+.FuturHP {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: -342px;
+}
+
+.FestivalDuFutur h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.FestivalDuFutur p {
+    margin-left: 0px;
+    margin-right: 385px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.FintrackApp {
+    display: flex;
+    flex-direction: row;
+}
+
+.FintrackApp img {
+    height: 545px;
+    padding: 41px 36px;
+    margin-bottom: 220px;
+}
+
+.fintrackHP {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.FintrackApp h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.FintrackApp p {
+    margin-left: 0px;
+    margin-right: 385px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.GrooveTV {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.GrooveTV img {
+    height: 545px;
+    padding: 41px 36px;
+    margin-bottom: 220px;
+    border-radius: 138px;
+
+}
+
+.GrooveHP {
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-left: 363px;
+    margin-right: -342px;
+}
+
+.GrooveTV h4 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.GrooveTV p {
+    margin-left: 0px;
+    margin-right: 385px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.temoignage {
+    min-height: 150vh;
+    margin: 200px 0px;
+}
+
+.temoignage h1 {
+    color: #3B63FB;
+    text-align: center;
+}
+
+.cardRetour {
+    margin-left: 10px;
+    width: 343px;
+    box-shadow: 0 4px 9.9px 2px #3B63FB;
+    border-radius: 10px;
+    padding: 15px 16px;
+    height: 206px;
+    background-color: #3B63FB;
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
+    flex-direction: column-reverse;
+
+}
+
+.cardRetour img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.RetourHP {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    margin: 29px 6px;
+}
+
+.HPCard {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 28px;
+}
+
+.temoignage p {
+    margin: 4px 14px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.cardRetourRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 400px 0px;
+    gap: 40px;
+}
