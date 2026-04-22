@@ -8,6 +8,7 @@
     min-height: 100vh;
     margin: auto;
     max-height: 1080px;
+
 }
 
 .logoNav {
@@ -118,9 +119,9 @@ header {
 }
 
 .container {
-    min-height: 100vh;
+    max-width: 1080px;
     margin: auto;
-    max-height: 1080px;
+    min-height: 90vh;
 }
 
 .P1 {
@@ -251,8 +252,6 @@ header {
 
 .serviceProposes {
     min-height: 150vh;
-    margin: auto;
-    max-height: 1080px;
 }
 
 .rowCard {
@@ -403,8 +402,7 @@ header {
 }
 
 .temoignage {
-    min-height: 150vh;
-    margin: 200px 0px;
+    min-height: 100vh;
     margin: auto;
     max-height: 1080px;
 }
@@ -464,5 +462,43 @@ header {
 }
 .project{
     margin: auto;
+    
+}
+footer{
+    min-height: 10vh;
+    margin: auto;
     max-height: 1080px;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 70px;
+
+
+}
+.LéoVanelMotion{
+    display: flex;
+    flex-direction: row;
+}
+.footerLabel{
+display: flex;
+flex-direction: column;
+}
+.emailFooter{
+    font-size: 20px;
+    color:#3B63FB ;
+    text-decoration: none;
+}
+.buttonLeo{
+    background-color: #3B63FB;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 23px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 23px 4px;
 }
